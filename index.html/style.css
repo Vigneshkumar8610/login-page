@@ -1,0 +1,62 @@
+h1{
+color: hsl(38, 81%, 6%);
+}
+body{
+    background-color: hsla(270, 39%, 62%, 0.523);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background: hsl(0, 1%, 33%);
+    color: hsl(0, 0%, 100%);
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background: #3a3a3a;
+}
+
+button {
+    padding: 12px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #009acd;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px;
+}
+
+.options a {
+    color: #87cefa;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
